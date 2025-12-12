@@ -97,6 +97,7 @@ const ChatBot = () => {
                 className="flex flex-col gap-2 items-end border-2 p-4 rounded-xl"
             >
                 <textarea
+                    autoFocus
                     {...register('prompt', {
                         required: true,
                         validate: (data) => data.trim().length > 0,
