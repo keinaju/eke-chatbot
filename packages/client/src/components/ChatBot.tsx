@@ -29,18 +29,18 @@ type ChatMessage = {
 const ChatBot = () => {
     const [messages, setMessages] = useState<ChatMessage[]>([]);
     const [isLoading, setIsLoading] = useState(false);
-    const formRef = useRef<HTMLFormElement | null>(null);
+    const lastMessageRef = useRef<HTMLDivElement | null>(null);
     const clientId = useRef(crypto.randomUUID());
     const { register, handleSubmit, reset, formState } = useForm<FormData>();
 
     useEffect(() => {
-        formRef.current?.scrollIntoView({ behavior: 'smooth' });
+        lastMessageRef.current?.scrollIntoView({ behavior: 'smooth' });
     }, [messages]);
 
     const onSubmit = async ({ prompt }: FormData) => {
         setMessages((prev) => [...prev, { content: prompt, role: 'user' }]);
 
-        reset();
+        reset({ prompt: '' });
 
         setIsLoading(true);
         const { data } = await axios.post<ChatResponse>('/api/chat', {
@@ -72,16 +72,21 @@ const ChatBot = () => {
     };
 
     return (
-        <div>
-            <div className="flex flex-col gap-1">
+        <div className="flex flex-col h-full">
+            <div className="flex flex-col flex-1 gap-1 overflow-y-auto">
                 {messages.map((message, index) => (
-                    <p
+                    <div
                         key={index}
                         onCopy={onCopyMessage}
+                        ref={
+                            index === messages.length - 1
+                                ? lastMessageRef
+                                : null
+                        }
                         className={`px-3 py-1 rounded-xl ${message.role === 'user' ? 'bg-blue-100 self-end' : 'bg-gray-100 self-start'}`}
                     >
                         <ReactMarkdown>{message.content}</ReactMarkdown>
-                    </p>
+                    </div>
                 ))}
                 {isLoading ? <LoadingAnimation /> : null}
             </div>
@@ -89,7 +94,6 @@ const ChatBot = () => {
             <form
                 onSubmit={handleSubmit(onSubmit)}
                 onKeyDown={onKeyDown}
-                ref={formRef}
                 className="flex flex-col gap-2 items-end border-2 p-4 rounded-xl"
             >
                 <textarea
