@@ -11,12 +11,12 @@ type ChatResponse = {
 };
 
 export const chatService = {
-    async sendMessage(prompt: string, clientId: string): Promise<ChatResponse> {
+    async sendPrompt(prompt: string, clientId: string): Promise<ChatResponse> {
         const modelResponse = await client.responses.create({
             model: 'gpt-4o-mini',
             input: prompt,
             temperature: 0.2,
-            max_output_tokens: 100,
+            max_output_tokens: 500,
             previous_response_id: conversations.getLastResponseId(clientId),
         });
 
