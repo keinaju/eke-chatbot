@@ -9,9 +9,9 @@ import {
 import ReactMarkdown from 'react-markdown';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { useForm } from 'react-hook-form';
-import { Button } from './ui/button.tsx';
-import Separator from './Separator.tsx';
-import LoadingAnimation from './LoadingAnimation.tsx';
+import { Button } from '../ui/button.tsx';
+import Separator from '../Separator.tsx';
+import Loader from './Loader.tsx';
 
 type FormData = {
     prompt: string;
@@ -27,10 +27,11 @@ type ChatMessage = {
 };
 
 const ChatBot = () => {
+    const [error, setError] = useState('');
     const [messages, setMessages] = useState<ChatMessage[]>([]);
     const [isLoading, setIsLoading] = useState(false);
-    const lastMessageRef = useRef<HTMLDivElement | null>(null);
     const clientId = useRef(crypto.randomUUID());
+    const lastMessageRef = useRef<HTMLDivElement | null>(null);
     const { register, handleSubmit, reset, formState } = useForm<FormData>();
 
     useEffect(() => {
@@ -38,21 +39,28 @@ const ChatBot = () => {
     }, [messages]);
 
     const onSubmit = async ({ prompt }: FormData) => {
-        setMessages((prev) => [...prev, { content: prompt, role: 'user' }]);
+        try {
+            setError('');
+            setIsLoading(true);
+            setMessages((prev) => [...prev, { content: prompt, role: 'user' }]);
 
-        reset({ prompt: '' });
+            reset({ prompt: '' });
 
-        setIsLoading(true);
-        const { data } = await axios.post<ChatResponse>('/api/chat', {
-            prompt,
-            clientId: clientId.current,
-        });
+            const { data } = await axios.post<ChatResponse>('/api/chat', {
+                prompt,
+                clientId: clientId.current,
+            });
 
-        setMessages((prev) => [
-            ...prev,
-            { content: data.message, role: 'bot' },
-        ]);
-        setIsLoading(false);
+            setMessages((prev) => [
+                ...prev,
+                { content: data.message, role: 'bot' },
+            ]);
+        } catch (error) {
+            console.error(error);
+            setError('Something went wrong while processing your prompt.');
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     const onKeyDown = (e: KeyboardEvent<HTMLFormElement>) => {
@@ -88,7 +96,8 @@ const ChatBot = () => {
                         <ReactMarkdown>{message.content}</ReactMarkdown>
                     </div>
                 ))}
-                {isLoading ? <LoadingAnimation /> : null}
+                {isLoading ? <Loader /> : null}
+                {error ? <p className="text-red-500">{error}</p> : null}
             </div>
             <Separator />
             <form
