@@ -23,6 +23,11 @@ bun install
 
 ### Run frontend and backend concurrently:
 
+Define ENV variables:
+
+- PORT
+- OPENAI_API_KEY
+
 ```bash
 bun run index.ts
 ```
