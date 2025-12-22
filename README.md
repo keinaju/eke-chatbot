@@ -1,15 +1,28 @@
-# ai
+# Personal chatbot
 
-To install dependencies:
+AI-powered browser chat bot with some
+context information specific to author (Jukka Keinänen).
+
+Since large language models are not familiar with person specific information,
+instruction file is used to comprehend this functionality.
+
+Application uses Bun as a runtime and provides both
+frontend and backend solution separated in individual workspaces.
+
+Backend is built with Express.js and TypeScript and OpenAI API is used to generate responses.
+
+Frontend is built with React, Tailwind and shadcn/ui.
+
+## How to:
+
+### Install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+### Run frontend and backend concurrently:
 
 ```bash
 bun run index.ts
 ```
-
-This project was created using `bun init` in bun v1.3.2. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
