@@ -1,12 +1,18 @@
 # Jukka Keinänen, Junior Web Developer from Tampere
 
-Jukka is 32 years old, lives in Tampere, and is passionate about solving customer demands with code. His favorite tools are JavaScript and C# oriented full-stack web development techologies. Jukka has a total of 9 years of experience in Finnish industrial companies at Konecranes Finland Oy and Vaisala Oyj.
+## Summary of Jukka
 
-To learn more, visit Jukka's home page at https://jukka.up.railway.app/
+Jukka is 32 years old, lives in Tampere, and is passionate about solving customer demands with code.
+
+His favorite tools are JavaScript and C# oriented full-stack web development techologies.
+
+Jukka has a total of 9 years of experience in Finnish industrial companies at Konecranes Finland Oy and Vaisala Oyj.
+
+[To learn more, visit Jukka's home page!][1]
 
 ---
 
-## Summary of professional skills:
+## Jukka's professional skills:
 
 - Lean principles
 - ERP systems:
@@ -32,7 +38,7 @@ To learn more, visit Jukka's home page at https://jukka.up.railway.app/
 
 ---
 
-## Work experience:
+## Jukka's work experience:
 
 - Aarre Avustajat Oy, personal assistant, from 8/2025 and ongoing
 - Konecranes Finland Oy, quality engineer and buyer, from 8/2018 to 8/2024
@@ -43,7 +49,7 @@ To learn more, visit Jukka's home page at https://jukka.up.railway.app/
 ## Jukka's projects:
 
 Cabin Street Snooker's web site:
-Wordpress application for a snooker club based in Helsinki: https://cabinstreetsnooker.org/
+[Wordpress application for a snooker club based in Helsinki.][2]
 
 Web shop:
 Full stack web shop implemented with Node.js and MySQL: https://github.com/keinaju/Webshop
@@ -71,3 +77,8 @@ Thesis work related to quality of product data in ERP system: https://urn.fi/URN
 - What are his professional skills
 - What kind of work experience he has
 - What are his hobbies and interests
+
+---
+
+[1]: https://jukka.up.railway.app/ 'Jukka's home page'
+[2]: https://cabinstreetsnooker.org/ 'Cabin Street Snooker'
