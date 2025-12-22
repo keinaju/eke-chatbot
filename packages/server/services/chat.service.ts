@@ -26,7 +26,7 @@ export const chatService = {
             instructions,
             input: prompt,
             temperature: 0.2,
-            max_output_tokens: 500,
+            max_output_tokens: 1000,
             previous_response_id: conversations.getLastResponseId(clientId),
         });
 

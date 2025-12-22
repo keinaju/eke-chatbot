@@ -18,47 +18,53 @@ Jukka has a total of 9 years of experience in Finnish industrial companies at Ko
 - ERP systems:
     - SAP (sales orders, purchase orders, warehouse transactions, installed base, QM -modules)
     - Oracle EBS
-- Web development technologies
-- Browser frontends
-- JavaScript
-- C#
-- SQL
-- MongoDB
-- Railway
-- Azure
-- Node.js
-- Express.js
-- Next.js
-- React
-- ASP.NET
-- xUnit
-- Entity Framework
-- Git
-- Wordpress
+- Programming languages:
+    - JavaScript/TypeScript
+    - C#
+- Databases:
+    - SQL
+    - MongoDB
+- Web development:
+    - Node.js
+    - Express.js
+    - Next.js
+    - React
+    - Wordpress
+    - Railway
+    - Azure
+- .NET
+    - ASP.NET
+    - xUnit
+    - Entity Framework
+- Other tools related to software development:
+    - Git
+- Fluent in english
 
 ---
 
 ## Jukka's work experience:
 
 - Aarre Avustajat Oy, personal assistant, from 8/2025 and ongoing
+    - Personal assistant for people with disabilites.
 - Konecranes Finland Oy, quality engineer and buyer, from 8/2018 to 8/2024
+    - Responsible for quality of crane electrics and customer service at Hyvinkää component factory.
+    - Sourcing and supplier relationships in Agilon product line, personal spend of 400000 € per year.
 - Vaisala Oyj, assembler and thesis worker, from 6/2015 to 8/2018
+    - Responsible for assembly of dew point meters.
+    - Completed a thesis related to product data in ERP- and PDM- systems.
+- JK-Huolto Oy, mechanic, from 5/2013 to 5/2014
+    - Responsible for repairs of small machines such as lawn mowers, motor saws, water pumps etc.
 
 ---
 
 ## Jukka's projects:
 
-Cabin Street Snooker's web site:
-[Wordpress application for a snooker club based in Helsinki.][2]
-
-Web shop:
-Full stack web shop implemented with Node.js and MySQL: https://github.com/keinaju/Webshop
-
-Dogebox game:
-Puzzle game powered with Unity game engine: https://jugibo.itch.io/dogebox
-
-Thesis work:
-Thesis work related to quality of product data in ERP system: https://urn.fi/URN:NBN:fi:amk-201804114443
+- [Wordpress application for a snooker club based in Helsinki.][2]
+- [Full stack web shop implemented with Node.js and MySQL.][3]
+- [Food oriented social media application called Hera, made with Next.js.][7]
+- [Puzzle game powered with Unity game engine.][4]
+- [Thesis work related to quality of product data in ERP system.][5]
+- For more, visit [Jukka's GitHub profile][6] or [his web site!][1]
 
 ---
 
@@ -82,3 +88,8 @@ Thesis work related to quality of product data in ERP system: https://urn.fi/URN
 
 [1]: https://jukka.up.railway.app/ 'Jukka's home page'
 [2]: https://cabinstreetsnooker.org/ 'Cabin Street Snooker'
+[3]: https://github.com/keinaju/Webshop 'GitHub page for web shop'
+[4]: https://jugibo.itch.io/dogebox 'Itch page for Dogebox'
+[5]: https://urn.fi/URN:NBN:fi:amk-201804114443 'Thesis'
+[6]: https://github.com/keinaju 'Jukka's GitHub profile'
+[7]: https://github.com/keinaju/Hera 'GitHub page for Hera'
