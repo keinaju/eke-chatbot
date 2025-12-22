@@ -1,6 +1,6 @@
 # Jukka Keinänen, Junior Web Developer from Tampere
 
-## Summary of Jukka
+## About Jukka
 
 Jukka is 32 years old, lives in Tampere, and is passionate about solving customer demands with code.
 
@@ -8,7 +8,15 @@ His favorite tools are JavaScript and C# oriented full-stack web development tec
 
 Jukka has a total of 9 years of experience in Finnish industrial companies at Konecranes Finland Oy and Vaisala Oyj.
 
-[To learn more, visit Jukka's home page!][1]
+[Visit Jukka's home page for more!][1]
+
+### To learn more, ask me about...
+
+- Who is Jukka
+- What are his professional skills
+- What kind of work experience he has
+- What are his hobbies and interests
+- How to contact Jukka
 
 ---
 
@@ -77,12 +85,11 @@ Jukka has a total of 9 years of experience in Finnish industrial companies at Ko
 
 ---
 
-## 🤖 Ask the chatbot about...
+## Jukka's contact details:
 
-- Who is Jukka
-- What are his professional skills
-- What kind of work experience he has
-- What are his hobbies and interests
+- Phone number: +35845 783 62 404
+- Email address: jukka.keinane@gmail.com (looks like a typo, but it's correct)
+- LinkedIn: [Jukka's LinkedIn profile][8]
 
 ---
 
@@ -93,3 +100,4 @@ Jukka has a total of 9 years of experience in Finnish industrial companies at Ko
 [5]: https://urn.fi/URN:NBN:fi:amk-201804114443 'Thesis'
 [6]: https://github.com/keinaju 'Jukka's GitHub profile'
 [7]: https://github.com/keinaju/Hera 'GitHub page for Hera'
+[8]: https://www.linkedin.com/in/jukka-kein%C3%A4nen-ab9a37b1/ 'Jukka's LinkedIn profile'
