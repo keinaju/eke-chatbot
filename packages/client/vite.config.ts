@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 const frontendPort = process.env.FRONTEND_PORT || 3000;
 const backendPort = process.env.BACKEND_PORT || 3000;
+const host = process.env.ALLOW_HOST || '';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -22,11 +23,7 @@ export default defineConfig({
         },
     },
     server: {
-        allowedHosts: [
-            '.localhost',
-            'localhost',
-            'server-production-5eae.up.railway.app',
-        ],
+        allowedHosts: ['.localhost', 'localhost', host],
         host: '0.0.0.0',
         port: Number(frontendPort),
         proxy: {
