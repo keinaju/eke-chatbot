@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -114,7 +115,18 @@
     * {
         @apply border-border outline-ring/50;
     }
+
     body {
         @apply bg-background text-foreground;
+    }
+
+    ul,
+    ol {
+        list-style: revert;
+        padding-left: 1rem;
+    }
+
+    a {
+        @apply text-blue-500 hover:underline;
     }
 }
