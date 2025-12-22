@@ -33,7 +33,7 @@ const Conversation = ({ messages }: Props) => {
                     key={index}
                     onCopy={onCopyMessage}
                     ref={index === messages.length - 1 ? lastMessageRef : null}
-                    className={`px-3 py-1 rounded-xl ${message.role === 'user' ? 'bg-blue-100 self-end' : 'bg-gray-100 self-start'}`}
+                    className={`px-3 py-1 max-w-md rounded-xl ${message.role === 'user' ? 'bg-blue-100 self-end' : 'bg-gray-100 self-start'}`}
                 >
                     <ReactMarkdown>{message.content}</ReactMarkdown>
                 </div>
