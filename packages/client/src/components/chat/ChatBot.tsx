@@ -7,6 +7,13 @@ import Separator from '../Separator.tsx';
 import Loader from './Loader.tsx';
 import type { ChatMessage } from './Conversation.tsx';
 import Conversation from './Conversation.tsx';
+import pop from '@/assets/sounds/pop.mp3';
+import notification from '@/assets/sounds/notification.mp3';
+
+const popAudio = new Audio(pop);
+popAudio.volume = 0.5;
+const notificationAudio = new Audio(notification);
+notificationAudio.volume = 0.5;
 
 type FormData = {
     prompt: string;
@@ -31,6 +38,8 @@ const ChatBot = () => {
 
             reset({ prompt: '' });
 
+            popAudio.play();
+
             const { data } = await axios.post<ChatResponse>('/api/chat', {
                 prompt,
                 clientId: clientId.current,
@@ -45,6 +54,7 @@ const ChatBot = () => {
             setError('Something went wrong while processing your prompt.');
         } finally {
             setIsLoading(false);
+            notificationAudio.play();
         }
     };
 
