@@ -22,6 +22,11 @@ export default defineConfig({
         },
     },
     server: {
+        allowedHosts: [
+            '.localhost',
+            'localhost',
+            'server-production-5eae.up.railway.app',
+        ],
         host: '0.0.0.0',
         port: Number(frontendPort),
         proxy: {
