@@ -25,7 +25,8 @@ bun install
 
 Define ENV variables:
 
-- PORT
+- BACKEND_PORT
+- FRONTEND_PORT
 - OPENAI_API_KEY
 
 ```bash
