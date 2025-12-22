@@ -22,6 +22,7 @@ export default defineConfig({
         },
     },
     server: {
+        host: '0.0.0.0',
         port: Number(frontendPort),
         proxy: {
             '/api': `http://localhost:${backendPort}`,
