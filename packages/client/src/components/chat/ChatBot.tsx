@@ -25,7 +25,12 @@ type ChatResponse = {
 
 const ChatBot = () => {
     const [error, setError] = useState('');
-    const [messages, setMessages] = useState<ChatMessage[]>([]);
+    const [messages, setMessages] = useState<ChatMessage[]>([
+        {
+            content: 'Greetings! Ask me anything about Jukka Keinänen!',
+            role: 'bot',
+        },
+    ]);
     const [isLoading, setIsLoading] = useState(false);
     const clientId = useRef(crypto.randomUUID());
     const { register, handleSubmit, reset, formState } = useForm<FormData>();
