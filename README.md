@@ -25,6 +25,7 @@ bun install
 
 Define ENV variables:
 
+- ALLOW_HOST
 - BACKEND_PORT
 - FRONTEND_PORT
 - OPENAI_API_KEY
