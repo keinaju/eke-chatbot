@@ -85,7 +85,7 @@ const ChatBot = () => {
                         validate: (data) => data.trim().length > 0,
                     })}
                     className="w-full focus:outline-0 resize-none"
-                    placeholder="Ask anything!"
+                    placeholder="Type here!"
                     maxLength={1000}
                 />
                 <Button
