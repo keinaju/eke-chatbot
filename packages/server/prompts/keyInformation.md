@@ -4,6 +4,30 @@
 
 EKE-Electronics is a Finnish high-tech company based in Espoo, near Helsinki, specialising in Train Control and Management Systems (TCMS). Founded in 1986, they have 40 years of experience in the railway industry. As a family-owned business with Mitsubishi Electric as a minority shareholder, they combine advanced electronics and software to enhance train operations worldwide.
 
+## Customers
+
+Tens of thousands of EKE systems are in operation around the world, delivering high-quality, reliable, and safety-critical solutions for rail networks. Our flagship projects highlight the successful deployment of EKE’s Train Control and Management Systems across diverse rail environments, from high-speed networks to metro and regional trains. Each project demonstrates our expertise in integrating advanced technology into both new and existing fleets, ensuring long-term operational benefits for our customers.
+
+### London Underground Central & Bakerloo Line Refurbishment
+
+EKE-Electronics played a key role in refurbishing the London Underground Central and Bakerloo Line fleets, upgrading critical systems to extend their service life and ensure seamless integration with London Underground’s infrastructure. With decades of experience and a proven track record as the original system supplier, EKE-Electronics was well-positioned to support the technical and operational demands of this complex refurbishment.
+
+### Talgo High Speed Trains
+
+EKE-Electronics is a trusted partner of Talgo, a Spanish manufacturer of high-speed passenger trains. Talgo high speed trains are equipped with EKE-Trainnet® TCMS technology and include SIL 2 safety functionalities.
+
+### High Capacity Metro Trains
+
+The High Capacity Metro Trains (HCMT) is the largest single order of new trains in Victoria’s history, designed to increase passenger capacity and support Melbourne’s growing rail network.
+
+### Sydney Waratah Trains
+
+The Sydney Trains, commonly known as the Waratah trains, are double-decker electric multiple units operating across the Sydney Trains network. Delivered through a Public Private Partnership (PPP) between Downer EDI Rail and Hitachi for Reliance Rail, the initial order of 78 trainsets marked the largest rolling stock procurement in Australia’s history.
+
+### Queensland Rail SmartVision™
+
+Queensland Rail operates an extensive rail network across Australia, requiring a robust and efficient approach to train diagnostics and maintenance. To enhance real-time monitoring capabilities, Queensland Rail implemented SmartVision™, a cutting-edge remote diagnostics solution from EKE-Electronics.
+
 ## Products
 
 ### Train Control and Management Systems (TCMS)
