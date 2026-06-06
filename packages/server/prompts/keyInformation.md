@@ -120,6 +120,18 @@ A hot axle box detection (HABD) system is a device used to monitor the temperatu
 
 [Go to our HABD page to learn more.][5]
 
+### What is Lateral Acceleration Monitoring?
+
+Lateral acceleration monitoring (LAM) on trains involves measuring the lateral forces experienced by the train as it moves along the track, allowing for the assessment of the train’s stability and adherence to safety parameters during curves, switches, or other track conditions that may induce lateral forces.
+
+[Go to our LAM page to learn more.][6]
+
+### What is a Vigilance Control System?
+
+A vigilance control system (VCS) is a safety mechanism designed to monitor the alertness of train drivers. They are also known as the Dead Man’s Switch or Driver Safety Device (DSD). Should the driver fail to react to the alert system, a series of actions are initiated, finally resulting in the train being stopped automatically.
+
+[Learn more about Vigilance Control System.][7]
+
 ## Learn more about EKE-Electronics
 
 With four decades of experience in the railway industry, EKE-Electronics is a long-standing and reliable partner for train builders, operators, integrators, and maintainers around the world. Our proven track record in delivering dependable train automation solutions reflects our commitment to long-term collaboration and technical excellence.
@@ -131,3 +143,5 @@ With four decades of experience in the railway industry, EKE-Electronics is a lo
 [3]: https://www.eke-electronics.com/what-is-a-train-communication-network-tcn/ 'What is a Train Communication Network -blog'
 [4]: https://www.eke-electronics.com/automatic-selective-door-operation-asdo/ 'ASDO -page'
 [5]: https://www.eke-electronics.com/hot-axle-box-detector-habd/ 'HABD -page'
+[6]: https://www.eke-electronics.com/lateral-accelaration-monitoring-lam/ 'LAM -page'
+[7]: https://www.eke-electronics.com/vigilance-control-system-vcs/ 'VCS -page'
