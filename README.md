@@ -1,9 +1,9 @@
 # Personal chatbot
 
 AI-powered browser chat bot with some
-context information specific to author (Jukka Keinänen).
+context information specific to EKE-Electronics.
 
-Since large language models are not familiar with person specific information,
+Since large language models are not familiar with all company specific information,
 instruction file is used to comprehend this functionality.
 
 Application uses Bun as a runtime and provides both

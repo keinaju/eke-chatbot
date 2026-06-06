@@ -27,7 +27,7 @@ const ChatBot = () => {
     const [error, setError] = useState('');
     const [messages, setMessages] = useState<ChatMessage[]>([
         {
-            content: 'Greetings! Ask me anything about Jukka Keinänen!',
+            content: 'Greetings! Ask me anything about EKE-Electronics!',
             role: 'bot',
         },
     ]);
