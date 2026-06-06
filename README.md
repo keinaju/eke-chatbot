@@ -1,4 +1,4 @@
-# Personal chatbot
+# EKE-Electronics chatbot
 
 AI-powered browser chat bot with some
 context information specific to EKE-Electronics.
