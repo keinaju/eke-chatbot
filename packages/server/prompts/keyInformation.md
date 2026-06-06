@@ -149,13 +149,13 @@ Vigilance Control Systems are sometimes referred to by other names, depending on
 
 [Learn more about Vigilance Control System.][7]
 
-## What are TCN Gateways?
+### What are TCN Gateways?
 
 Train Communication Network or TCN Gateways are a critical component of a train system. A TCN Gateway is a train computer that acts as a converter between two protocols, allowing data to flow from various subsystems using different bus protocols to ensure that they work together seamlessly.
 
 [Learn more about EKE-Trainnet® TCN Gateways.][8]
 
-## What are ETCS-TIU Gateways?
+### What are ETCS-TIU Gateways?
 
 An ETCS-TIU (Train Interface Unit) Gateway acts as an interface between the ETCS OBU (On-board Unit) and the existing TCMS. This ensures that legacy fleets can be integrated with the advances being made by the European Train Control System (ETCS) technology.
 
@@ -163,7 +163,7 @@ EKE-Trainnet® Gateways can be supplied as certified SIL 2 Safety Gateways makin
 
 [Learn more about EKE-Trainnet® TCN Gateways.][8]
 
-## What are Safety Gateways?
+### What are Safety Gateways?
 
 Safety Gateways are similar to TCN Gateways but are certified SIL 2 Safety Gateways. They provide a vital interface between the train’s critical systems or subsystems and the TCMS.
 
@@ -171,7 +171,7 @@ One example is their use as ETCS-TIU Gateways, where they serve as vital links b
 
 [Learn more about EKE-Trainnet® Safety Gateways.][9]
 
-## What is a Vehicle Control Unit?
+### What is a Vehicle Control Unit?
 
 A Vehicle Control Unit (VCU) is a programmable device crucial for smooth train operations. It interacts with subsystems, performs automatic system functions, executes programmable control applications, interfaces with the Train Communication Network (TCN), monitors and controls train operations, and responds to driver inputs.
 
