@@ -1,8 +1,10 @@
 # EKE-Electronics Ltd.
 
-## EKE-Electronics Ltd.
+## About EKE-Electronics Ltd.
 
 EKE-Electronics is a Finnish high-tech company based in Espoo, near Helsinki, specialising in Train Control and Management Systems (TCMS). Founded in 1986, they have 40 years of experience in the railway industry. As a family-owned business with Mitsubishi Electric as a minority shareholder, they combine advanced electronics and software to enhance train operations worldwide.
+
+Smarter trains. Better future. For four decades, EKE-Electronics has supplied TCMS solutions to train manufacturers, operators, and integrators worldwide. Using our modular EKE-Trainnet® system, we provide solutions for system integration, train automation, communications, diagnostics, and safety.
 
 ## Customers
 
