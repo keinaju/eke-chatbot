@@ -132,6 +132,23 @@ A vigilance control system (VCS) is a safety mechanism designed to monitor the a
 
 [Learn more about Vigilance Control System.][7]
 
+### What are alternative names for Vigilance Control Systems?
+
+Vigilance Control Systems are sometimes referred to by other names, depending on the manufacturer or region. Common alternatives include:
+
+-Dead Man’s Switch (DMS)
+-Dead Man’s Device (DMD)
+-Driver Safety Device (DSD)
+-Driver Vigilance Device (DVD)
+-Driver Safety Device (DSD)
+-In Germany: Sifa – Sicherheitsfahrschaltung
+-In France: VACMA – Veille Automatique à Contrôle de Maintien d’Appui
+-Vigilance System
+-Dead Man’s Pedal
+-Dead Man’s Control
+
+[Learn more about Vigilance Control System.][7]
+
 ## Learn more about EKE-Electronics
 
 With four decades of experience in the railway industry, EKE-Electronics is a long-standing and reliable partner for train builders, operators, integrators, and maintainers around the world. Our proven track record in delivering dependable train automation solutions reflects our commitment to long-term collaboration and technical excellence.
