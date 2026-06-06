@@ -171,6 +171,12 @@ One example is their use as ETCS-TIU Gateways, where they serve as vital links b
 
 [Learn more about EKE-Trainnet® Safety Gateways.][9]
 
+## What is a Vehicle Control Unit?
+
+A Vehicle Control Unit (VCU) is a programmable device crucial for smooth train operations. It interacts with subsystems, performs automatic system functions, executes programmable control applications, interfaces with the Train Communication Network (TCN), monitors and controls train operations, and responds to driver inputs.
+
+[Learn more about EKE-Trainnet® Vehicle Control Units.][10]
+
 ## Learn more about EKE-Electronics
 
 With four decades of experience in the railway industry, EKE-Electronics is a long-standing and reliable partner for train builders, operators, integrators, and maintainers around the world. Our proven track record in delivering dependable train automation solutions reflects our commitment to long-term collaboration and technical excellence.
@@ -186,3 +192,4 @@ With four decades of experience in the railway industry, EKE-Electronics is a lo
 [7]: https://www.eke-electronics.com/vigilance-control-system-vcs/ 'VCS -page'
 [8]: https://www.eke-electronics.com/train-communication-network-tcn-gateways/ 'TCN Gateways -page'
 [9]: https://www.eke-electronics.com/train-communication-network-tcn-gateways/#safety-gateways 'Safety Gateways -page'
+[10]: https://www.eke-electronics.com/vehicle-control-unit-vcu/ 'Vehicle Contol Unit -page'
