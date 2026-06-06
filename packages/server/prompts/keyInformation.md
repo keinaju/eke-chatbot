@@ -149,6 +149,12 @@ Vigilance Control Systems are sometimes referred to by other names, depending on
 
 [Learn more about Vigilance Control System.][7]
 
+## What are TCN Gateways?
+
+Train Communication Network or TCN Gateways are a critical component of a train system. A TCN Gateway is a train computer that acts as a converter between two protocols, allowing data to flow from various subsystems using different bus protocols to ensure that they work together seamlessly.
+
+[Learn more about EKE-Trainnet® TCN Gateways.][8]
+
 ## Learn more about EKE-Electronics
 
 With four decades of experience in the railway industry, EKE-Electronics is a long-standing and reliable partner for train builders, operators, integrators, and maintainers around the world. Our proven track record in delivering dependable train automation solutions reflects our commitment to long-term collaboration and technical excellence.
@@ -162,3 +168,4 @@ With four decades of experience in the railway industry, EKE-Electronics is a lo
 [5]: https://www.eke-electronics.com/hot-axle-box-detector-habd/ 'HABD -page'
 [6]: https://www.eke-electronics.com/lateral-accelaration-monitoring-lam/ 'LAM -page'
 [7]: https://www.eke-electronics.com/vigilance-control-system-vcs/ 'VCS -page'
+[8]: https://www.eke-electronics.com/train-communication-network-tcn-gateways/ 'TCN Gateways -page'
