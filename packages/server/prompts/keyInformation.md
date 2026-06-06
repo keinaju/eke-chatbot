@@ -64,12 +64,12 @@ TCMS stands for Train Control and Management System.
 
 It supervises, controls, and monitors onboard functions, serving as the train’s central nervous system. TCMS automates train subsystem management by collecting and analysing data such as speed, braking, and system status. It issues real-time commands and warnings to operators, crew, and passengers while enabling remote monitoring to enhance safety and operational efficiency.
 
+[Go to our TCMS page to discover more about EKE-Electronics TCMS.][1]
+[Click here to read our blog to explore the fundamentals of TCMS.][2]
+
 ## Learn more about EKE-Electronics
 
 With four decades of experience in the railway industry, EKE-Electronics is a long-standing and reliable partner for train builders, operators, integrators, and maintainers around the world. Our proven track record in delivering dependable train automation solutions reflects our commitment to long-term collaboration and technical excellence.
-
-[Go to our TCMS page to discover more about EKE-Electronics TCMS.][1]
-[Click here to read our blog to explore the fundamentals of TCMS.][2]
 
 ---
 
