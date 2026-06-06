@@ -67,6 +67,59 @@ It supervises, controls, and monitors onboard functions, serving as the train’
 [Go to our TCMS page to discover more about EKE-Electronics TCMS.][1]
 [Click here to read our blog to explore the fundamentals of TCMS.][2]
 
+### What is the difference between TCMS and TMS?
+
+TCMS stands for Train Control and Management System and supervises, controls, and monitors onboard functions, serving as the train’s central nervous system. TCMS automates train subsystem management by collecting and analysing data such as speed, braking, and system status. It issues real-time commands and warnings to operators, crew, and passengers while enabling remote monitoring to enhance safety and operational efficiency.
+
+TMS stands for Train Monitoring System. Unlike the TCMS it does not control any subsystem instead it monitors and reports on pre-determined parameters of the train’s operation for purposes such as condition monitoring and maintenance planning. This can include collecting, logging and monitoring the health status of the train, monitoring speed, location or energy use.
+
+[Go to our TCMS page to learn more.][1]
+
+### What is a TCN?
+
+A TCN or Train Communication Network facilitates information exchange throughout the train, using a Vehicle Bus for intra-vehicle communication and a Train Bus for train-wide connectivity. The TCN typically consists of interconnected train computers, or Gateways, linked to various subsystems.
+
+### What kinds of TCN architectures can EKE-Electronics implement?
+
+EKE-Trainnet® solutions are highly versatile, allowing for the implementation of various Train Communication Network (TCN) architectures to meet different operational and technical requirements. Below are examples of possible architectures, illustrating the range of configurations we can provide. These examples do not cover every possibility but demonstrate the flexibility and scalability of our solutions.
+
+-Full MVB train
+-Full CAN train
+-WTB-MVB standard bus redundancy, no redundant I/O
+-Ethernet-WTB-MVB
+-Dual Homing TRDP Ethernet
+-Dual Homing TRDP Ethernet-WTB-MVB Hybrid
+-Ethernet-MVB Hybrid
+-CAN-WTB
+
+[Go to our TCMS page to learn more.][1]
+
+### What are alternative names for TCMS?
+
+TCMS (Train Control and Management System) is sometimes referred to by other names, depending on the manufacturer or region. Common alternatives include:
+
+-MDS (Monitoring and Diagnostic System)
+-DTS (Data Transmission System)
+-TIMS (Train Information Management System)
+-TMS (Train Management System)
+-TCIS (Train Control and Information System)
+
+While these terms may have slight differences in meaning, they generally refer to onboard control and monitoring systems for trains.
+
+### What does ASDO stand for?
+
+ASDO stands for Automatic Selective Door Operation.
+
+It is a train door control system that automatically controls train doors at each station stop by checking train location and platform configuration to ensure only safe doors open, improving passenger safety and comfort.
+
+[Go to our ASDO page to learn more.][4]
+
+### What is Hot Axle Box Detection (HABD)?
+
+A hot axle box detection (HABD) system is a device used to monitor the temperature of the axle boxes on train wheels and/or gearboxes to check for overheating bearings, which could potentially lead to mechanical failures or even fires. These can be wayside or on-board systems.
+
+[Go to our HABD page to learn more.][5]
+
 ## Learn more about EKE-Electronics
 
 With four decades of experience in the railway industry, EKE-Electronics is a long-standing and reliable partner for train builders, operators, integrators, and maintainers around the world. Our proven track record in delivering dependable train automation solutions reflects our commitment to long-term collaboration and technical excellence.
@@ -75,3 +128,6 @@ With four decades of experience in the railway industry, EKE-Electronics is a lo
 
 [1]: https://www.eke-electronics.com/train-control-and-management-system-tcms/ 'TCMS solutions -page'
 [2]: https://www.eke-electronics.com/what-is-tcms/ 'What is TCMS -blog'
+[3]: https://www.eke-electronics.com/what-is-a-train-communication-network-tcn/ 'What is a Train Communication Network -blog'
+[4]: https://www.eke-electronics.com/automatic-selective-door-operation-asdo/ 'ASDO -page'
+[5]: https://www.eke-electronics.com/hot-axle-box-detector-habd/ 'HABD -page'
