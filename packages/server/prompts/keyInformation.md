@@ -155,6 +155,22 @@ Train Communication Network or TCN Gateways are a critical component of a train 
 
 [Learn more about EKE-Trainnet® TCN Gateways.][8]
 
+## What are ETCS-TIU Gateways?
+
+An ETCS-TIU (Train Interface Unit) Gateway acts as an interface between the ETCS OBU (On-board Unit) and the existing TCMS. This ensures that legacy fleets can be integrated with the advances being made by the European Train Control System (ETCS) technology.
+
+EKE-Trainnet® Gateways can be supplied as certified SIL 2 Safety Gateways making them suitable for use as ETCS-TIU Gateways.
+
+[Learn more about EKE-Trainnet® TCN Gateways.][8]
+
+## What are Safety Gateways?
+
+Safety Gateways are similar to TCN Gateways but are certified SIL 2 Safety Gateways. They provide a vital interface between the train’s critical systems or subsystems and the TCMS.
+
+One example is their use as ETCS-TIU Gateways, where they serve as vital links between otherwise incompatible systems. These gateways support seamless data exchange, enabling modern ETCS functionality to be integrated with legacy rolling stock.
+
+[Learn more about EKE-Trainnet® Safety Gateways.][9]
+
 ## Learn more about EKE-Electronics
 
 With four decades of experience in the railway industry, EKE-Electronics is a long-standing and reliable partner for train builders, operators, integrators, and maintainers around the world. Our proven track record in delivering dependable train automation solutions reflects our commitment to long-term collaboration and technical excellence.
@@ -169,3 +185,4 @@ With four decades of experience in the railway industry, EKE-Electronics is a lo
 [6]: https://www.eke-electronics.com/lateral-accelaration-monitoring-lam/ 'LAM -page'
 [7]: https://www.eke-electronics.com/vigilance-control-system-vcs/ 'VCS -page'
 [8]: https://www.eke-electronics.com/train-communication-network-tcn-gateways/ 'TCN Gateways -page'
+[9]: https://www.eke-electronics.com/train-communication-network-tcn-gateways/#safety-gateways 'Safety Gateways -page'
